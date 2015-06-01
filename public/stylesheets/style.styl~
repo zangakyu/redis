@@ -1,0 +1,85 @@
+body
+  font-family "Helvetica Neue", "Lucida Grande", "Arial"
+  font-size 13px
+  text-stroke 1px rgba(255, 255, 255, 0.1)
+  color #555
+  background-color #CDCDCD
+  margin: 0
+  padding: 0
+h1, h2
+  margin 0
+  font-size 22px
+  color #343434
+h1
+  text-shadow 1px 2px 2px #ddd
+  font-size 60px
+#articles
+  text-align left
+  margin-left auto
+  margin-right auto
+  width 80%
+  .article
+    margin 20px
+    background-color #EBEBEB
+    border-style solid
+    border-color #A7A7A7 #A7A7A7
+    border-width: 1px 1px 1px 1px;
+    .created_at
+        display none
+    .title
+        font-weight bold
+        background-color #EBEBEB
+        color #373737
+        height 50px
+        font-size 35px
+    .body 
+        background-color #EBEBEB
+        min-height 40px
+.title a:hover,.title a:visited,.title a:link,.title a:active
+  text-decoration none
+  color #373737
+ 
+.article
+  .created_at
+    display none
+  input[type =text]
+    width 490px
+    margin-left 16px
+  input[type =button], input[type =submit]
+    text-align left
+    margin-left 440px
+  textarea
+    width 490px
+    height 90px
+    
+.header
+  height 50px
+  line-height 50px
+  width 100%
+  background-color #373737
+  margin 0 auto
+  padding 0
+  color white
+  border-style solid
+  border-color #A7A7A7 #A7A7A7
+  border-width: 0px 0px 5px 0px;
+  
+ .header a:hover,.header a:visited,.header a:link,.header a:active
+  text-decoration none
+  color white
+.headerText
+  color white
+  margin-left 5px
+  
+.comment
+  margin 20px
+  border-style solid
+  border-color #A7A7A7 #A7A7A7
+  border-width: 1px 1px 1px 1px;
+.commentMessage
+  margin 20px
+.newArticle
+  text-align center
+  margin 20px
+
+	
